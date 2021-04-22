@@ -1,0 +1,118 @@
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.search-box {
+  padding: 10px 15px 10px 30px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  outline: none;
+}
+
+.card-content {
+  display: flex;
+
+  .doctor-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .doctor-id {
+    color: #bfbfbf;
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
+
+.card-content p {
+  margin: 0px;
+}
+
+.card-info {
+  padding: 0px 10px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+
+  .location {
+    padding-left: 8px;
+    color: #999999;
+  }
+}
+
+.card-list {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.card-list::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+.card-list::-webkit-scrollbar-track {
+  background: 999999; /* color of the tracking area */
+}
+
+.card-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.125); /* color of the scroll thumb */
+  border-radius: 20px;
+}
+
+.doctor-details-container {
+  width: 30vw;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-left: 20px;
+}
+
+.card-list-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.card-container {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.card-active {
+  border: 1px solid green !important;
+}
+
+.scrollbar {
+  min-height: 500px;
+  max-height: 500px;
+  background: #f1f1f1;
+  overflow-y: hidden;
+}
+.scrollbar:hover {
+  overflow-y: auto;
+}
+
+.select-container {
+  width: 400px;
+  padding-left: 5rem;
+  margin-top: 20px;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
